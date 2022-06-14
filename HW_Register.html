@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form - HomeWork</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Register</h1></legend>
+        
+        <form action="">
+            <label for="FirstName"><b>First Name: </b></label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="John" required>
+            <label for="LastName"><b>Last Name: </b></label>
+            <input type="text" name="LastName" id="LastName" placeholder="Doe"required><br><br>
+            <label for="Man">Man</label>
+            <input type="radio" name="gender" id="man">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="Other">Other</label>
+            <input type="radio" name="gender" id="other"checked><br><br>
+            <label for="Email"><b>Email: </b> </label>
+            <input type="email" name="email" id="email" placeholder="xxx@xxx.com"required>
+            <label for="Password"><b>Password: </b></label>
+            <input type="password" name="password" id="password" placeholder="&#8226&#8226&#8226&#8226&#8226&#8226&#8226&#8226&#8226" required pattern="[#?!@$%^&*-]{2,5}" ><br><br>
+            <label for="Birth"><b>Date of birth</b></label> <br>
+            <input type="date" name="Birthday" id="birthday"required><br><br>
+            <label for="Education"><b>Education:</b></label><br>
+            <select name="Education" id="education" required>
+                <option value="" disabled selected>Select</option>
+                <option value="HighSchool">High school</option>
+                <option value="BA">BA</option>
+                <option value="Master">Master's degree  </option>
+            </select><br><br>
+            <input type="checkbox" name="Terms" id="terms"required>
+            <label for="Terms">I agree to the terms and conditions</label><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>           
+    
+
+</body>
+</html> 
