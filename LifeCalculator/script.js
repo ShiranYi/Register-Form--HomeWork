@@ -22,8 +22,6 @@ var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 // var currentDay = today.getDate();
 console.log(diffDays + " days");
 
-//
-
 
 
 
